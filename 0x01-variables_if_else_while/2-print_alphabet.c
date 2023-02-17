@@ -7,10 +7,12 @@
 
 int main(void)
 {
-	for (int x = 'A'; x <= 'Z'; x++)
+	char a[26] = "abcdefghijklmnopqrstuvwxyz";
+	int x;
+	for (x = 0; x < 26; x++)
 	{
-		x = tolower(x);
-		putchar(x);
+		putchar(a[x]);
 	}
+	putchar("\n")
 	return (0);
 }
