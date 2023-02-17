@@ -7,3 +7,4 @@
 “5-printf.c- Using printf in execution of c file”
 “6-size.c- gets sizes of various types on the computer it is compiled”
 “100-intel- generates intel syntax of a C code and saves it in an output file”
+“101-quote.c- writes code to standard error without using printf or puts”
