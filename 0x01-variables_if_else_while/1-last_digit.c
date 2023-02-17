@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+#include <stdio>
 
-/* betty style doc for function main goes there */
+/**
+ * main- Entry Point
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	int n, a;
