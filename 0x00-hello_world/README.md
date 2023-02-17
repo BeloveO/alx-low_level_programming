@@ -6,3 +6,4 @@
 “4-puts.c- Using puts instead of printf in execution of c file”
 “5-printf.c- Using printf in execution of c file”
 “6-size.c- gets sizes of various types on the computer it is compiled”
+“100-intel- generates intel syntax of a C code and saves it in an output file”
