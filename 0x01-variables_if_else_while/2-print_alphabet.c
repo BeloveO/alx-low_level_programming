@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - Entry Point
+ * main - Prints the alphabet
  *
  * Return: always 0 (success)
  */
@@ -13,6 +13,6 @@ int main(void)
 	{
 		putchar(a[x]);
 	}
-	putchar("\n")
+	putchar("\n");
 	return (0);
 }
