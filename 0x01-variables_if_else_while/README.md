@@ -4,3 +4,4 @@
 “3-print_alphabets.c- Print the alphabet in lowercase and uppercase”
 “4-print_alphabt.c- Print the alphabet in lowercase except e and q”
 “5-print_numbers.c- print all single digit base 10 numbers”
+“6-print_numberz.c- print all single digit base 10 numbers using putchar”
