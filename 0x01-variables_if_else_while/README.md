@@ -9,3 +9,4 @@
 “8-print_base16.c- print all the numbers in base 16 in lowercase”
 “9-print_comb.c- prints all single digits separated by a comma and space”
 “100-print_comb3.c- prints double digits numbers where the first is always smaller than the last”
+“101-print_comb4.c- prints 3 digits numbers in ascending order with the first digit as the smallest and the last as the biggest”
