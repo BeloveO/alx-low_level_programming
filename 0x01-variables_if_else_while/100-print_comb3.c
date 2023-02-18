@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints out all possible combinations of double digits where first digit is always smaller than second digit
+ * main - prints out double digits where smaller first digit than second digit
  *
  * Return: always 0 (success)
  */
