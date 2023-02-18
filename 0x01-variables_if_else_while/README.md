@@ -7,3 +7,4 @@
 “6-print_numberz.c- print all single digit base 10 numbers using putchar”
 “7-print_tebahpla.c- prints lowercase alphabet in reverse”
 “8-print_base16.c- print all the numbers in base 16 in lowercase”
+“9-print_comb.c- prints all single digits separated by a comma and space”
