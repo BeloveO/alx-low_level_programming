@@ -5,3 +5,4 @@
 “4-print_alphabt.c- Print the alphabet in lowercase except e and q”
 “5-print_numbers.c- print all single digit base 10 numbers”
 “6-print_numberz.c- print all single digit base 10 numbers using putchar”
+“7-print_tebahpla.c- prints lowercase alphabet in reverse”
