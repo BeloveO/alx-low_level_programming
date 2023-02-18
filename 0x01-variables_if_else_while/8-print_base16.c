@@ -10,10 +10,9 @@ int main(void)
 
 	for (x = 0; x < 10; x++)
 		putchar((x % 10) + '0');
-	char y;
 
-	for (y = 'a', y <= 'f', y++)
-		putchar(y);
+	for (x = 0, x < 5, y++)
+		putchar('a' + x);
 	putchar('\n');
 	return (0);
 }
