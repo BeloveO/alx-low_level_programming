@@ -8,18 +8,15 @@ int main(void)
 {
 	int x, y, z;
 
-	for (x = 0; x < 10; x++)
+	for (x = 0; x < 8; x++)
 	{
-		for (y = 1; y < 10; y++)
+		for (y = x + 1; y < 9; y++)
 		{
-			for (z =2; z < 10; z++)
+			for (z =y + 1; z < 10; z++)
 			{
-				if (z > y && y > x)
-				{
-					putchar((x % 10) + '0');
-					putchar((y % 10) + '0');
-					putchar((z % 10) + '0');
-				}
+				putchar((x % 10) + '0');
+				putchar((y % 10) + '0');
+				putchar((z % 10) + '0');
 				if (x == 7 && y == 8 && z == 9)
 					continue;
 				putchar(',');
