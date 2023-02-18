@@ -10,9 +10,9 @@ int main(void)
 
 	for (x = 0; x < 10; x++)
 	{
-		for (y = 0; y < 10; y++)
+		for (y = 1; y < 10; y++)
 		{
-			for (z =0; z < 10; z++)
+			for (z =2; z < 10; z++)
 			{
 				if (z > y && y > x)
 				{
