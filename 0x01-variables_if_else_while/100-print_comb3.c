@@ -17,8 +17,11 @@ int main(void)
 				putchar((x % 10) + '0');
 				putchar((y % 10) + '0');
 			}
-			putchar(',');
-			putchar(' ');
+			if (x != 8 and y != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
