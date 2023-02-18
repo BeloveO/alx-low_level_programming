@@ -14,13 +14,13 @@ int main(void)
 		{
 			for (z =0; z < 10; z++)
 			{
-				if (z > y > x)
+				if (z > y && y > x)
 				{
 					putchar((x % 10) + '0');
 					putchar((y % 10) + '0');
 					putchar((z % 10) + '0');
 				}
-				if (x == 7; y == 8 && z == 9)
+				if (x == 7 && y == 8 && z == 9)
 					continue;
 				putchar(',');
 				putchar(' ');
