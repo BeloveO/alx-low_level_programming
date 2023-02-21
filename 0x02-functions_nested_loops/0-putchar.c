@@ -1,7 +1,6 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - prints _putchar using ASCII values
+ * main - prints _putchar
  *
  * Return: always 0 (success)
  */
