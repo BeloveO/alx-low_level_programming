@@ -4,7 +4,6 @@
  *
  * @a: integer to be checked
  *
- * @b: result of input modulo 10
  * Return: the last digit of the input
  */
 int print_last_digit(int a)
