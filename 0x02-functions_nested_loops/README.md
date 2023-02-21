@@ -3,3 +3,4 @@
 2-print_alphabet_x10.c- prints the alphabet in lowercase 10 times n
 3-islower.c - checks if the input is lowercase and returns 1 if positiven
 4-isalpha.c - returns 1 if the input is a letter regardless of casen
+5-sign.c - returns 1 if input is greater than 0, 0 if input is 0 and -1 if input is smaller than 0n
