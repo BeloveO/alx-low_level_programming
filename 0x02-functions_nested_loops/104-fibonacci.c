@@ -27,7 +27,7 @@ int main(void)
 	for (c = 93; c < 99; c++)
 	{
 		h1 = n1_h1 + n2_h1;
-		h2 = n1_h2 + n2+h2;
+		h2 = n1_h2 + n2_h2;
 		if (n1_h2 + n2_h2 > 9999999999)
 		{
 			h1 += 1;
