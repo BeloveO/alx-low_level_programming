@@ -42,6 +42,6 @@ int main(void)
 		n2_h1 = h1;
 		n2_h2 = h2;
 	}
-	printf(", ");
+	printf("\n");
 	return (0);
 }
