@@ -10,3 +10,4 @@
 9-times_table.c - outputs the multiplication table from 0-9n
 10-add.c- returns the sum of two integersn
 11-print_to_98.c- counts all natural numbers from n to 98n
+100-times_table.c- prints the n times table, starting with 0n
