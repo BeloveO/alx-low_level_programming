@@ -35,14 +35,13 @@ int main(void)
 		}
 		printf("%lu%lu", h1, h2);
 
-		if (c == 98)
-			printf("\n");
-		else
+		if (c != 98)
 			printf(", ");
 		n1_h1 = n2_h1;
 		n1_h2 = n2_h2;
 		n2_h1 = h1;
 		n2_h2 = h2;
 	}
+	printf(", ");
 	return (0);
 }
