@@ -23,6 +23,7 @@ void print_times_table(int n)
 				{
 					_putchar(' ');
 					_putchar(result + '0');
+				}
 				else
 				{
 					_putchar((result / 10) + '0');
