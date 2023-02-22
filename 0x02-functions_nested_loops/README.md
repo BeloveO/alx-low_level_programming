@@ -8,3 +8,4 @@
 7-print_last_digit.c- returns the last digit of inputted integern
 8-24_hours.c- prints every minute of the dayn
 9-times_table.c - outputs the multiplication table from 0-9n
+10-add.c- returns the sum of two integersn
