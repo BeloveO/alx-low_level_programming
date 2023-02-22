@@ -3,8 +3,6 @@
  * print_times_table - prints times tables n times
  *
  * @n: the number of times the function is carried out
- *
- * Return: 0 when n is greater than 15 or less than 0
  */
 void print_times_table(int n)
 {
@@ -44,5 +42,5 @@ void print_times_table(int n)
 		}
 	}
 	else
-		return (0);
+		_putchar('0');
 }
