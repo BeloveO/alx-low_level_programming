@@ -11,3 +11,4 @@
 10-add.c- returns the sum of two integersn
 11-print_to_98.c- counts all natural numbers from n to 98n
 100-times_table.c- prints the n times table, starting with 0n
+101-natural.c - sum of multiples of 3 and 5 under 1024n
