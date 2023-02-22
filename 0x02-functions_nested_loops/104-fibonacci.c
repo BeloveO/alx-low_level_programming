@@ -7,9 +7,9 @@
 int main(void)
 {
 	int c;
-	long int n1 = 0, n2 = 1, sn;
-	long int n1_h1, n1_h2, n2_h1, n2_h2;
-	long int h1, h2;
+	unsigned long n1 = 0, n2 = 1, sn;
+	unsigned long n1_h1, n1_h2, n2_h1, n2_h2;
+	unsigned long h1, h2;
 
 	for (c = 0; c <= 92; c++)
 	{
