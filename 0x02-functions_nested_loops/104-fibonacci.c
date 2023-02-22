@@ -11,10 +11,10 @@ int main(void)
 	unsigned long n1_h1, n1_h2, n2_h1, n2_h2;
 	unsigned long h1, h2;
 
-	for (c = 0; c <= 92; c++)
+	for (c = 0; c < 92; c++)
 	{
 		sn = n1 + n2;
-		printf("%lu", sn);
+		printf("%lu, ", sn);
 
 		n1 = n2;
 		n2 = sn;
