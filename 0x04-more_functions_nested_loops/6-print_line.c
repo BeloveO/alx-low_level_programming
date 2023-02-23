@@ -1,16 +1,17 @@
 #include "main.h"
+
 /**
- * print_line - prints an underscore a certain number of times
- *
- * @n: the number of times underscore is printed
+ * print_line - prints straight line n times.
+ * @n: times straight line is printed.
+ * Return: no return.
  */
 void print_line(int n)
 {
-	if (n > 0)
+	int i;
+
+	for (i = 0; i < n; i++)
 	{
 		_putchar(95);
-		n--;
 	}
-	else
-		_putchar('\n');
+	_putchar('\n');
 }
