@@ -3,3 +3,4 @@
 2-mul.c- multiplies 2 integers
 2-mul.c- multiplies two integers
 3-print_numbers.c- prints from 0-9
+4-print_most_numbers.c- prints to 9 except 2 and 4
