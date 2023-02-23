@@ -2,3 +2,4 @@
 1-isdigit.c- checks if input is a digit
 2-mul.c- multiplies 2 integers
 2-mul.c- multiplies two integers
+3-print_numbers.c- prints from 0-9
