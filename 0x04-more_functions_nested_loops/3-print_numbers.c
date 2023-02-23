@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_number - prints from 0 - 9
+ * print_numbers - prints from 0 - 9
  */
 void print_numbers(void)
 {
-	int a;
+	int a = 0;
 
 	while (a >= 48 && a <= 57)
 	{
