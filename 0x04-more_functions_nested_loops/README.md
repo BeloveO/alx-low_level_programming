@@ -7,3 +7,4 @@
 5-more_numbers.c- prints to 14 ten times
 6-print_line.c- prints underscore n times
 7-print_diagonal.c- Prints diagonal lines
+8-print_square.c- prints square
