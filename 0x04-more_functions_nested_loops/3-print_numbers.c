@@ -4,10 +4,9 @@
  */
 void print_numbers(void)
 {
-	int a = 0;
+	int a;
 
-	_putchar(a + '0');
-	a++;
-	if (a = 9)
-		_putchar('\n');
+	while (a >= 48 && a <= 57)
+		_putchar(a);
+	_putchar('\n');
 }
