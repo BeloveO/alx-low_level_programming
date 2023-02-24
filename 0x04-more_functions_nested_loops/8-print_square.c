@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints straight line n times.
- * @n: times diagonal line is printed.
+ * print_square - prints straight line n times.
+ * @size: times squares are printed.
  */
 void print_square(int size);
 {
