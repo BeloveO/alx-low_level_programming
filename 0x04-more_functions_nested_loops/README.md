@@ -10,3 +10,4 @@
 8-print_square.c- prints square
 9-fizz_buzz.c- prints 1 to 100 with some exceptions
 10-print_triangle.c- prints triangles
+100-prime_factor.c- Prints out the highest prime number
