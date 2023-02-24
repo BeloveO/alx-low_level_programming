@@ -4,7 +4,7 @@
  * print_square - prints straight line n times.
  * @size: times squares are printed.
  */
-void print_square(int size);
+void print_square(int size)
 {
 	int i, j;
 
