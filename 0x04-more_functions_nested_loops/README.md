@@ -9,3 +9,4 @@
 7-print_diagonal.c- Prints diagonal lines
 8-print_square.c- prints square
 9-fizz_buzz.c- prints 1 to 100 with some exceptions
+10-print_triangle.c- prints triangles
