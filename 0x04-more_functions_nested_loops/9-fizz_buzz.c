@@ -15,7 +15,15 @@ int main(void)
 		else if (i % 3 = 0 && i % 5 = 0)
 			printf("FizzBuzz");
 		else
-			printf(i);
-		printf(" ");
+		{
+			if (i > 9)
+			{
+				putchar((i / 10) + '0');
+				putchar((i % 10) + '0');
+			}
+			else
+				printf("%d", i);
+		}
+		putchar(' ');
 	}
 }
