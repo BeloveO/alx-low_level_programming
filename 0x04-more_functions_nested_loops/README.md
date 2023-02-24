@@ -11,3 +11,4 @@
 9-fizz_buzz.c- prints 1 to 100 with some exceptions
 10-print_triangle.c- prints triangles
 100-prime_factor.c- Prints out the highest prime number
+101-print_number.c- prints integers
