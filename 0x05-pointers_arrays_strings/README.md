@@ -8,3 +8,4 @@
 7-puts_half.c- prints the second half of a string
 8-print_array.c- prints arrays
 9-strcpy.c- copies a script into another
+100-atoi.c- converts string to integer
