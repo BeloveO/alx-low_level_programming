@@ -19,9 +19,9 @@ void rev_string(char *s)
 	{
 		for (k = i + 1; k > 0; k--)
 		{
-			aux = *(str + k);
-			*(str + k) = *(str + (k - 1));
-			*(str + (k - 1)) = aux;
+			aux = *(a + k);
+			*(a + k) = *(a + (k - 1));
+			*(a + (k - 1)) = aux;
 		}
 	}
 }
