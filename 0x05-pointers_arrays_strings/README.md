@@ -6,3 +6,4 @@
 5-rev_string.c- returns a reversed string
 6-puts2.c- prints every other character in a string
 7-puts_half.c- prints the second half of a string
+8-print_array.c- prints arrays
