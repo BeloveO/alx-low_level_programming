@@ -1,6 +1,12 @@
 #include "main.h"
 /**
+ * *_strncat - function to concatenate two strings to a certain length
  *
+ * @dest: first string
+ * @src: second string
+ * @n: number to which the second string is copied
+ *
+ * Return: returns dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
