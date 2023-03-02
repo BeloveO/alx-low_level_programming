@@ -3,6 +3,8 @@
  * *string_toupper - function to convert to uppercase letters
  *
  * @s: string to be converted
+ *
+ * Return: returns the converted string
  */
 char *string_toupper(char *s)
 {
