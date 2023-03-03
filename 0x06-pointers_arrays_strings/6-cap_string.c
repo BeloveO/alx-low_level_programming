@@ -12,19 +12,16 @@ char *cap_string(char *s)
 
 	int spc[] = {32, '\t', '\n', 44, 59, 46, 33, 63, 34, 40, 41, '{', '}'};
 	
-	if (s[i] == 0 && (s[i] >= 'a' && s[i] <= 'z'))
-		s[i] = s[i] - 32;
-	i++;
-	while (s[i] != '\0')
+	while (s[i])
 	{
-		for (j = 0; j < 13; j++)
+		j = 0;
+
+		while (j < 13)
 		{
-			if (s[i] == spc[j])
-			{
-				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
-					s[i + 1] = s[i + 1] - 32;
-				break;
-			}
+			if ((i == 0 || s[i - 1] == spc[j]) && (s[i] >= 97 && s[i] <= 122))
+				s[i] -= 32;
+
+			j++;
 		}
 		i++;
 	}
