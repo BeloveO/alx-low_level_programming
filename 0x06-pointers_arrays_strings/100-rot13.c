@@ -8,12 +8,22 @@
  */
 char *rot13(char *s)
 {
-	int i = 0, j;
+	int i = 0;
 
-	if ((s[i] >= 'A' && s[i] <= 'M') || (s[i] >= 'a' && s[i] <= 'm'))
-		s[i] = s[i + 13];
-	else if ((s[i] >= 'N' && S[I] <= 'Z') || (s[i] >= 'n' && s[i] <= 'z'))
-		s[i] = s[i - 13];
+	while (s[i] != '\0')
+	{
+		while ((s[i] >= 97 && s[i] <= 122) || (s[i] >= 65 && s[i] <= 90))
+		{
+			if ((s[i] > 109 && s[i] < 123) || (s[i] > 77 && s[i] < 91))
+			{
+				s[i] -= 13;
+				break;
+			}
+			s[i] += 13;
+			break;
+		}
+		i++;
+	}
 
 	return (s);
 }
