@@ -11,7 +11,7 @@ char *cap_string(char *s)
 	int i = 0, j;
 
 	int spc[] = {32, '\t', '\n', 44, 59, 46, 33, 63, 34, 40, 41, '{', '}'};
-	
+
 	while (s[i])
 	{
 		j = 0;
