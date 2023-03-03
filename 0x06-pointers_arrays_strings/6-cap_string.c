@@ -8,18 +8,15 @@
  */
 char *cap_string(char *s)
 {
-	int i, j;
+	int i = 0, j;
 
 	int spc[] = {32, '\t', '\n', 44, 59, 46, 33, 63, 34, 40, 41, '{', '}'};
-
-	for (i = 0; s[i] != '\0'; i++)
+	
+	if (s[i] == 0 && (s[i] >= 'a' && s[i] <= 'z'))
+		s[i] = s[i] - 32;
+	i++;
+	while (s[i] != '\0')
 	{
-		if (s[i] == 0)
-		{
-			if (s[i] >= 'a' && s[i] <= 'z')
-				s[i] = s[i] - 32;
-			continue;
-		}
 		for (j = 0; j < 13; j++)
 			if (s[i] == spc[j])
 			{
@@ -37,6 +34,7 @@ char *cap_string(char *s)
 					continue;
 				}
 			}
+		i++;
 	}
 	return (s);
 }
