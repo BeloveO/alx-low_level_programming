@@ -8,29 +8,35 @@
  */
 char *cap_string(char *s)
 {
-	int i;
+	int i, j;
+
+	int spc[] = {32, '\t', '\n', 44, 59, 46, 33, 63, 34, 40, 41, '{', '}'};
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (i == 0)
+		if (s[i] == 0)
 		{
 			if (s[i] >= 'a' && s[i] <= 'z')
 				s[i] = s[i] - 32;
 			continue;
 		}
-		if ((s[i] >= 9 && s[i] <= 63) || (s[i] >= 123 && s[i] <= 125))
-		{
-			i++;
-			if (s[i] >= 'a' && s[i] <= 'z')
+		for (j = 0; j < 13; j++)
+			if (s[i] == spc[j])
 			{
-				s[i] = s[i] - 32;
-				continue;
+				++i;
+			       	if (s[i] >= 'a' && s[i] <= 'z')
+				{
+					s[i] = s[i] - 32;
+					continue;
+				}
+				else
+				{
+					i++;
+					if (s[i] >= 'a' && s[i] <= 'z')
+						s[i] = s[i] - 32;
+					continue;
+				}
 			}
-			else
-				i++;
-		}
-		else if (s[i] >= 'A' && s[i] <= 'Z')
-			s[i] = s[i] + 32;
 	}
 	return (s);
 }
