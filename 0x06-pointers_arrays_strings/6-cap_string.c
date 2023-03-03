@@ -23,8 +23,8 @@ char *cap_string(char *s)
 		for (j = 0; j < 13; j++)
 			if (s[i] == spc[j])
 			{
-				++i;
-			       	if (s[i] >= 'a' && s[i] <= 'z')
+				i++;
+				if (s[i] >= 'a' && s[i] <= 'z')
 				{
 					s[i] = s[i] - 32;
 					continue;
