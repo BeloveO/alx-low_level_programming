@@ -18,7 +18,7 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 			continue;
 		}
-		if (s[i] >= 0 && s[i] < 65 || s[i] > 122 && s[i] < 127)
+		if ((s[i] >= 9 && s[i] <= 63) || (s[i] >= 123 && s[i] <= 125))
 		{
 			i++;
 			if (s[i] >= 'a' && s[i] <= 'z')
@@ -26,6 +26,8 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 				continue;
 			}
+			else
+				i++;
 		}
 		else if (s[i] >= 'A' && s[i] <= 'Z')
 			s[i] = s[i] + 32;
