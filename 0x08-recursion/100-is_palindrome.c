@@ -16,11 +16,11 @@ int _strlen(char *s)
  * @i: array position for string
  * @j: reversed array position for string
  * @s: string checked
- * Resturn: 1 if string is a palindrome and 0 if not
+ * Return: 1 if string is a palindrome and 0 if not
  */
 int _palindrome(char *s, int i, int j)
 {
-	if (s[i] == s[j])
+	if (*(s + i) == *(s + j))
 	{
 		if (i == j || i == j + 1)
 			return (1);
