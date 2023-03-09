@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * *sqrt - return square root
+ * thesqrt - return square root
  * @n: number to check for square root
  * @r: number to check if it's square root of given number
  * Return: square root for natural number or -1 for unnatural
  */
-int *sqrt(int n, int r)
+int thesqrt(int n, int r)
 {
 	int sr = r * r;
 
@@ -14,7 +14,7 @@ int *sqrt(int n, int r)
 	else if (sr > n)
 		return (-1);
 	else
-		return (sqrt(n, r + 1));
+		return (thesqrt(n, r + 1));
 }
 
 /**
@@ -24,5 +24,5 @@ int *sqrt(int n, int r)
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (thesqrt(n, 1));
 }
