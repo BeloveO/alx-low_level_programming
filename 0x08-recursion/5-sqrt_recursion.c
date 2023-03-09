@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * sqrt - return square root
+ * *sqrt - return square root
  * @n: number to check for square root
  * @r: number to check if it's square root of given number
  * Return: square root for natural number or -1 for unnatural
  */
-int sqrt(int n, int r)
+int *sqrt(int n, int r)
 {
 	int sr = r * r;
 
