@@ -24,7 +24,7 @@ int _palindrome(char *s, int i, int j)
 	{
 		if (i == j || i == j + 1)
 			return (1);
-		return (0 + _palindrome(s, i + 1, j - 2));
+		return (0 + _palindrome(s, i + 1, j - 1));
 	}
 	return (0);
 }
@@ -37,5 +37,5 @@ int is_palindrome(char *s)
 {
 	if (*s == '\0')
 		return (1);
-	return (_palindrome(s, 0, _strlen(s + 1)));
+	return (_palindrome(s, 0, _strlen(s) + 1));
 }
