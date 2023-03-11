@@ -3,6 +3,7 @@
 #include <stdlib.h>
 /**
  * main - function to print name of program
+ * @argc: number of characters on command line
  * @argv: array of string on the command line
  * Return: always success (0)
  */
