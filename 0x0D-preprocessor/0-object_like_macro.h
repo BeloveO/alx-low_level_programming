@@ -1,5 +1,5 @@
-#ifndef _OBJECT_LIKE_MACRO_H_
-#define _OBJECT_LIKE_MACRO_H_
+#ifndef _OBJECT_LIKE_MACRO_H
+#define _OBJECT_LIKE_MACRO_H
 
 /**
  * File: main.h
@@ -10,4 +10,4 @@
 
 #define SIZE 1024
 
-#endif //ifndef _OBJECT_LIKE_MACRO_H_
+#endif
