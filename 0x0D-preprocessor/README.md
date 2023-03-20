@@ -17,3 +17,7 @@
 > Write a program that prints the name of the file it was compiled from, followed by a new line.
 - You are allowed to use the standard library
 ** [2-main.c]() **
+
+### 3. Function-like macro
+> Write a function-like macro ABS(x) that computes the absolute value of a number x.
+** [3-function_like_macro.h]() **
