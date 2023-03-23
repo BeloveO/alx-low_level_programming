@@ -4,6 +4,7 @@
  * main - prints the opcodes of its own function
  * @argc: argument count
  * @argv: argument vector
+ * Return: success (0)
  */
 int main(int argc, char *argv[])
 {
@@ -30,6 +31,6 @@ int main(int argc, char *argv[])
 			printf(" ");
 	}
 	printf("\n");
-	return(0);
+	return (0);
 }
 
