@@ -56,9 +56,29 @@
 
 **Solutions:**
    - [3-calc.h](https://github.com/BeloveO/alx-low_level_programming/blob/master/0x0F-function_pointers/3-calc.h)
+     > This file should contain all the function prototypes and data structures used by the program.
    - [3-op_functions.c](https://github.com/BeloveO/alx-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c)
+     > This file should contain the 5 following functions (not more):
+       - op_add: returns the sum of `a` and `b`. `Prototype: int op_add(int a, int b);`
+       - op_sub: returns the difference of `a` and `b`. `Prototype: int op_sub(int a, int b);`
+       - op_mul: returns the product of `a` and `b`. `Prototype: int op_mul(int a, int b);`
+       - op_div: returns the result of the division of `a` by `b`. `Prototype: int op_div(int a, int b);`
+       - op_mod: returns the remainder of the division of `a` by `b`. `Prototype: int op_mod(int a, int b);`
+
    - [3-get_op_func.c](https://github.com/BeloveO/alx-low_level_programming/blob/master/0x0F-function_pointers/3-get_op_func.c)
+      > This file should contain the function that selects the correct function to perform the operation asked by the user. 
+      > You’re not allowed to declare any other function.
+        - Prototype: `int (*get_op_func(char *s))(int, int);`
+        - where `s` is the operator passed as argument to the program
+        - This function returns a pointer to the function that corresponds to the operator given as a parameter. Example: `get_op_func("+")` should return a pointer to the function `op_add`
+        - If `s` does not match any of the 5 expected operators `(+, -, *, /, %)`, return `NULL`.
    - [3-main.c](https://github.com/BeloveO/alx-low_level_programming/blob/master/0x0F-function_pointers/3-main.c)
+      > This file should contain your `main` function only.
+        - You are not allowed to code any other function than `main` in this file
+        - You are not allowed to directly call `op_add`, `op_sub`, `op_mul`, `op_div` or `op_mod` from the main function
+        - You have to use `atoi` to convert arguments to `int`
+        - You are not allowed to use any kind of loop
+        - You are allowed to use a maximum of 3 `if` statements
 
 
 ### 4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker
