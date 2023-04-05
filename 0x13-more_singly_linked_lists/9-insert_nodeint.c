@@ -4,6 +4,7 @@
  * @head: head of singly linked list
  * @idx: index of list where new node should be added. Index starts at 0
  * @n: element of list
+ * Return: new node at a given postion
 */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
@@ -17,12 +18,14 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 			temp = temp->next;
 	}
 	if (temp == NULL && idx != 0)
+	{
 		return (NULL);
-	
+	}
 	new = malloc(sizeof(listint_t));
 	if (new == NULL)
+	{
 		return (NULL);
-	
+	}
 	new->n = n;
 
 	if (idx == 0)
