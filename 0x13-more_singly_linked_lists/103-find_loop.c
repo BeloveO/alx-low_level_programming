@@ -25,7 +25,6 @@ listint_t *find_listint_loop(listint_t *head)
 				}
 				if (temp->next == head)
 					break;
-				
 				head = head->next;
 			}
 			return (temp->next);
