@@ -8,7 +8,7 @@
  * Return: Division of a by b
  */
 
-int op_div(int a, int b)
+int div(int a, int b)
 {
 	if (b == 0)
 	{

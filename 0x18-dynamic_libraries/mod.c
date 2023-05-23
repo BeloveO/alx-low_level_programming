@@ -6,7 +6,7 @@
  * @b: second number
  * Return: Modulo a by b
  */
-int op_mod(int a, int b)
+int mod(int a, int b)
 {
 	if (b == 0)
 	{

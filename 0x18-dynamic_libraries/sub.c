@@ -6,7 +6,7 @@
  * @b: Second Number
  * Return: Subtraction of b from a
  */
-int op_sub(int a, int b)
+int sub(int a, int b)
 {
 	return (a - b);
 }
