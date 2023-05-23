@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * op_add - Sum of two numbers
  * @a: number
@@ -31,11 +30,6 @@ int sub(int a, int b)
 
 int div(int a, int b)
 {
-	if (b == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
 	return (a / b);
 }
 
@@ -58,10 +52,6 @@ int mul(int a, int b)
  */
 int mod(int a, int b)
 {
-	if (b == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
 	return (a % b);
 }
+
